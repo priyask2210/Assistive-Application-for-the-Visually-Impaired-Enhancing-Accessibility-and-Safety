@@ -7,7 +7,7 @@ from ultralytics import YOLO
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Load YOLO model
-model = YOLO("yolov8m.pt")  
+model = YOLO("yolov8n.pt")  
 
 # Initialize text-to-speech engine
 tts = pyttsx3.init()
